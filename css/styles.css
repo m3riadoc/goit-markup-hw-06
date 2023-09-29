@@ -701,6 +701,9 @@ img {
 .user-privacy-link {
   color: #4d5ae5;
 }
+.user-privacy-span {
+  opacity: 0;
+}
 
 .user-privacy-span {
   width: 16px;
@@ -716,10 +719,11 @@ img {
   fill: transparent;
 }
 
-.modal-checkbox:checked {
+.modal-checkbox:checked + .label-user-privacy .user-privacy-span:first-child {
   border: none;
   fill: #f4f4fd;
   background-color: #404bbf;
+  opacity: 1;
 }
 
 .modal-button {

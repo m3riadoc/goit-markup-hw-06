@@ -641,7 +641,7 @@ img {
 }
 
 .modal-input:focus {
-  border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .modal-input:hover {
@@ -650,6 +650,7 @@ img {
 
 .label-input {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .input-name-svg {

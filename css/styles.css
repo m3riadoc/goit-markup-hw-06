@@ -648,10 +648,6 @@ img {
   border-color: #4d5ae5;
 }
 
-.modal-input:hover {
-  border-color: #4d5ae5;
-}
-
 .label-input {
   position: relative;
   margin-bottom: 8px;
@@ -665,10 +661,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-name-svg:hover {
-  fill: #4d5ae5;
-}
-.input-name-svg:focus {
+.modal-input:focus + .input-name-svg {
   fill: #4d5ae5;
 }
 

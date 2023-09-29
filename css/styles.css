@@ -500,8 +500,6 @@ img {
 .footer-newsletter {
   margin-left: 80px;
 }
-.footer-newsletter-label {
-}
 
 .newsletter-input {
   width: 264px;
@@ -712,9 +710,6 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.user-privacy-svg {
 }
 
 .modal-checkbox:checked {

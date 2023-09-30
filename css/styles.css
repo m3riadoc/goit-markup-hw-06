@@ -643,10 +643,11 @@ img {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 24px;
 }
 
 .modal-input:focus {
-  border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .label-input {

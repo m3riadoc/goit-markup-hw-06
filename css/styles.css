@@ -495,10 +495,16 @@ img {
 
 .newsletter-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-newsletter {
   margin-left: 80px;
+}
+
+.email {
+  display: flex;
+  gap: 24px;
 }
 
 .newsletter-input {
